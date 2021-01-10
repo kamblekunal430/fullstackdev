@@ -1,0 +1,22 @@
+.btn{
+    background-color:coral;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: gray 10px 10px 10px;
+
+}
+
+.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: gray 20px 20px 20px;
+    transition: 0.5s;
+}
+
+.btn:active{
+    transform: translate(5px,5px);
+    box-shadow: gray 5px 5px 3px;
+    transition: 0.1s;
+}
