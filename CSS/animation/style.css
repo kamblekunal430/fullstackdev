@@ -1,0 +1,46 @@
+.container{
+    background-color: lightgreen;
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+
+}
+
+.item{
+    background-color: mediumorchid;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin: 20px;
+
+    animation: bounce 5s;
+    animation-iteration-count: infinite;
+}
+
+.one{
+    animation-timing-function: ease-in;
+}
+
+.two{
+    animation-timing-function: ease-out;
+
+}
+
+.three{
+    animation-timing-function: linear;
+}
+
+@keyframes bounce{
+    0% {
+        background-color: orange;
+    }
+
+    50% {
+        transform: translateY(400px);
+        background-color: mediumorchid;
+    }
+
+    100% {
+        background-color: orange;
+    }
+}

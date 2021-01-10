@@ -6,7 +6,8 @@
     margin: 50px;
     padding: 20px;
     box-shadow: gray 10px 10px 10px;
-
+    transition: 0.8s;
+    border-radius: 10px;
 }
 
 .btn:hover{
@@ -18,5 +19,5 @@
 .btn:active{
     transform: translate(5px,5px);
     box-shadow: gray 5px 5px 3px;
-    transition: 0.1s;
+    transition: 0.2s;
 }
