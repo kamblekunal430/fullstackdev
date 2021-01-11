@@ -1,0 +1,19 @@
+div{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    color: cornsilk;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+@media (max-width: 750px){
+    div{
+        background-color: cyan;
+        
+        color: black;
+        
+    }
+
+}
