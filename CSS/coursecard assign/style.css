@@ -1,0 +1,98 @@
+p{
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    border: solid black 1px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(9, 186, 245);
+    text-align: center;
+    border-radius: 5px;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 10px;
+    height: 40px;
+}
+
+.category{
+    
+    text-align: center;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    
+    
+}
+
+.course{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(236, 230, 230);
+    
+    border: lightgreen solid 1px;
+
+}
+
+.course-name{
+    font-family: monospace;
+    font-size: 30px;
+    text-align:center;
+    font-weight: bold;
+    height: 30px;
+
+}
+
+
+.price{
+    font-size: 40px;
+    text-align: center;
+    height: 20px;
+}
+
+.button{
+   padding: 50px;
+   background-color: rgb(235, 45, 45);    
+    color: whitesmoke;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    height: 10px;
+    width: 150px;
+}
+
+.course > .button{
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    margin-left: 200px;
+    margin-right: 200px ;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.content{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    
+
+}
