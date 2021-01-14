@@ -6,6 +6,13 @@ p{
     border: solid black 1px;
 }
 
+img{
+    width: 200px;
+    border-radius: 100px;
+    margin: 20px;
+
+}
+
 h1{
     font-size: 50px;
     font-family: cursive;
@@ -39,7 +46,6 @@ h2{
     width: 350px;
     background-color: rgb(236, 230, 230);
     
-    border: lightgreen solid 1px;
 
 }
 
@@ -95,4 +101,24 @@ h2{
     text-align: center;
     
 
+}
+
+.two{
+    background-color:azure;
+}
+
+
+@media (max-width: 800px){
+    .container{
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+       
+}
+
+@media (max-width: 500px){
+    .container{
+        margin: 0px;
+    }
+    
 }
